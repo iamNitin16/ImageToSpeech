@@ -1,0 +1,2 @@
+g++ -o ImagetoText ImagetoText.cpp -llept -ltesseract && ./ImagetoText ../images/exp_2.png\
+&& gcc -Wall -g -o TexttoSpeech TexttoSpeech.c -lflite_cmu_us_slt -lflite_usenglish -lflite_cmulex -lflite -lm -lasound && ./TexttoSpeech

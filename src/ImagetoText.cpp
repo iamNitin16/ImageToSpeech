@@ -7,9 +7,16 @@
 #include <leptonica/allheaders.h>
 #include<fstream>
 #include<iostream>
+
+
 using namespace std;
 
-int main() {
+int main(int argc, char **argv) {
+
+  if(argc != 2) {
+    fprintf(stderr, "Not sufficient arguments\n");
+    exit(-1);
+  }
 
   char *outText ;
   tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
@@ -22,7 +29,7 @@ int main() {
   ofstream fout ;
   fout.open("example.txt");
 
-  Pix *image = pixRead("../images/exp_1.png");
+  Pix *image = pixRead(*(argv+1));
   api->SetImage(image);
   // Get OCR result
   outText = api->GetUTF8Text();

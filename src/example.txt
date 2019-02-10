@@ -1,2 +1,13 @@
-Including and linking m Tessevact‘s API IS done In a standam Llnux way. To compile a basic pvogvam
-againslme API. you than use a command like mus:
+he Wikimedia Hackathon is a major event that brings together developers from all around th
+infrastructure of Wikipedia and other Wikimedia projects, particularly the MediaWiki platform
+
+ikimedia code development.
+
+he Hackathon will take place in Prague, Czech Repubiic, from May 17th-19th, 2019.
+
+is is your opportunity to meet the Wikimedia tech communiy, learn about the technologies and prc
+housands of other MediaWiki based websites, and propose or join a demo-able project to hack on d
+
+[Developers new to Wikimedia and tech-curious editors are also welcome!
+
+ust bring your laptop, ideas, and energy to contribute — we promise a great event, cool atmosphere
