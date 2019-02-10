@@ -1,0 +1,2 @@
+Including and linking m Tessevact‘s API IS done In a standam Llnux way. To compile a basic pvogvam
+againslme API. you than use a command like mus:
